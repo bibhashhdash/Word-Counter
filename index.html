@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Counter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="counter" id="counter">
+            <h3>Word Counter</h3>
+            <div class="inputbox">
+                <textarea name="input" id="input" cols="50" rows="10" class="input" placeholder="Enter Text here..."></textarea>
+            </div>
+            <div class="btn">
+                <button type="submit" onclick="count()">Count</button>
+                <button type="submit" onclick="reset()">Reset</button>
+            </div>
+            <div class="res">
+                <p id="ans"></p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Created By Bibhash Dash</p>
+    </footer>
+</body>
+<script src="main.js"></script>
+</html>
